@@ -1,3 +1,1 @@
-A Pen created at CodePen.io. You can find this one at http://codepen.io/giveback007/pen/NgPzKd.
-
- 
+https://giveback007.github.io/Simon-Game/
