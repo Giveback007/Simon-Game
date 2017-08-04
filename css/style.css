@@ -10,12 +10,21 @@ button:focus {outline:0;}
 
 button:hover {cursor: pointer; cursor: hand;}
 
+html {
+  min-height: 100vh;
+  display: flex;
+  /*justify-content: center;*/
+  /*align-content: center;*/
+}
+
+
 body {
  background-color: #e6e6e6;
  max-width: 540px;
+ max-height: 580px;
  display: flex;
  flex-wrap: wrap;
- margin: 10px auto;
+ margin: auto;
 }
 
 nav {
@@ -183,7 +192,7 @@ nav section button {
 @media screen and (max-width: 570px) {
   body {
     max-height: 500px;
-  }  
+  }
   nav {
    padding: 5px 5px;
    max-width: 300px;
@@ -199,11 +208,11 @@ nav section button {
   width: 315px;
   height: 290px;
  }
- 
+
  #start-btn {
   font-size: 80px;
  }
- 
+
  .main-btns {
   width: 135px;
   height: 135px;
@@ -212,11 +221,11 @@ nav section button {
   -webkit-border-radius: 135px 12px 95px 12px;
   border: 8px outset;
  }
- 
+
  .main-btns:active {
   border: 6px inset;
  }
- 
+
  #btn-center {
   height: 73px;
   width: 73px;
