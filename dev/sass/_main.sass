@@ -16,7 +16,7 @@ html
 body
   background-color: #e6e6e6
   max-width: 540px
-  max-height: 580px
+  max-height: 650px
   display: flex
   flex-wrap: wrap
   margin: 25px auto
@@ -72,6 +72,21 @@ body
     -webkit-transition: opacity 650ms
     transition: opacity 650ms
 
+#author
+  margin: auto
+  border-radius: 5px
+  padding: 5px
+  border: solid 1px
+  &:hover
+    background: rgba(0,0,0,0.1)
+  a
+    color: inherit
+    border: none
+
 @media screen and (max-width: 570px)
   body
     max-height: 500px
+    max-width: 440px
+    margin-top: 10px
+  #main-game-div
+    margin-top: 15px

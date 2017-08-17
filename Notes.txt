@@ -1,2 +1,0 @@
--Check on multi browser support
--Need signature at the bottom
