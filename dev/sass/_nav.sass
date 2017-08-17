@@ -1,0 +1,75 @@
+nav
+  width: 90%
+  margin: auto
+  display: flex
+  padding: 10px 20px
+  background-color: #cccccc
+  box-shadow: 0px 0px 5px 3px rgba(0, 0, 0, 0.3)
+  section
+    display: flex
+    font-weight: bold
+    button
+      width: 70px
+      height: 60px
+      font-size: 22px
+
+#menu-items
+  flex: 1
+  justify-content: space-around
+  button
+    border-radius: 10px
+
+#title
+  font-family: 'Righteous', cursive
+  text-align: center
+  font-size: 38px
+  margin: auto
+
+#main-count-div
+  margin: 2px 2px
+  span
+    padding: 2.5px
+    font-size: 23px
+
+#main-count
+  font-size: 23px
+  border-style: solid
+  width: 100%
+  text-align: center
+  background-color: #AEE998
+
+#strict
+  background-color: #E0DA4E
+  border-color: #FFFBA6
+  border-style: outset
+  transition: background-color 750ms
+  padding: 1px
+  &.on
+    border-style: inset
+    background-color: #D44A60
+    border-color: #F7A1AF
+
+#restart
+  padding: 1px
+
+@media screen and (max-width: 570px)
+  nav
+    padding: 5px 5px
+    max-width: 300px
+    display: block
+    section
+      margin: auto
+  #title
+    margin-bottom: 10px
+  #main-game-div
+    width: 315px
+    height: 290px
+  #start-btn
+    font-size: 80px
+  #btn-center
+    height: 73px
+    width: 73px
+  #now-count
+    font-size: 45px
+    color: white
+    text-shadow: 2px 1.5px black
